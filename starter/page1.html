@@ -1,0 +1,46 @@
+<!-- // res.end(`
+//   <h2>With Node.js <code>"http"</code> module</h2>
+//   <form action="/api/upload" enctype="multipart/form-data" method="post">
+//     <div>File: <input type="file" name="multipleFiles" multiple="multiple" /></div>
+//     <input type="submit" value="Upload" />
+//   </form> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="page.css">
+    <title>COMP1320 Milestone2</title>
+<form action="/api/upload" enctype="multipart/form-data" method="post">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>My Photo Album</h2>
+        </header>
+        
+        <article class='wrapper'>
+            <div class='photo'>
+                <div class="before"> Original Image</div>
+                <div class="after">  Filtered Image</div>
+            </div>  
+
+            <div class="button">
+                <button class="upload"><input type="file" name="multipleFiles" multiple="multiple" /></button>
+                <input type="submit" value="Upload" />
+                
+            </div>
+
+          
+        </article>
+
+    <footer>
+       
+    </footer>
+    </div>
+</body>
+</form>
+<script src="upload.js"></script>
+</html>
